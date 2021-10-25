@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  background-color: $grey;
+
+  @media (min-width: $tablet-width) {
+    font-size: 22px;
+  }
+  
+  @media (min-width: $desktop-width) {
+    font-size: 24px;
+  }
+}
+
+.ul {
+  margin: 0;
+  padding: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+

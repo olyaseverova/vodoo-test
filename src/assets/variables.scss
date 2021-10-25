@@ -1,0 +1,15 @@
+$white: #ffffff;
+$black: #000000;
+$grey: #E8E8E8;
+$greyD3: #D3D3D3;
+$darkgrey: #696969;
+$blue: #3399FF;
+
+%flex-wrap-space {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+$tablet-width: 768px;
+$desktop-width: 1440px;
